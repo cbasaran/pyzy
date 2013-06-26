@@ -1,4 +1,5 @@
-import config, controller,random
+from pyzy import config
+import random
 
 cfg = config.Config()
 controllers, args = cfg.read('fuzzy.conf')
